@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checkout</title>
+  <link rel="stylesheet" href="../CSS/checkout.css" />
+</head>
+<body>
+ <a href="home.html" class="back-btn">← Back to Shopping</a>
+
+  <h1 class="checkout-heading">Checkout</h1>
+
+  <div class="checkout-container">
+
+    <!-- Cart Items -->
+    <div class="cart-list">
+      <h3>Your Cart</h3>
+
+      <!-- Items will be injected by JS -->
+      <div class="cart-items"></div>
+    </div>
+
+    <!-- Order Summary -->
+    <div class="order-summary">
+      <h3>Order Summary</h3>
+
+      <p>Total Items: <span class="total-items">0</span></p>
+      <p>Total Price: <span class="total-price">Rs.0.00</span></p>
+
+      <button class="place-order-btn">Place Order</button>
+    </div>
+
+  </div>
+<script type="module" src="../scripts/checkout.js"></script>
+</body>
+</html>
